@@ -1,0 +1,7 @@
+com/opentrader/controller/MainController.class
+com/opentrader/service/MarketDataService.class
+com/opentrader/App.class
+com/opentrader/Launcher.class
+com/opentrader/ui/NewsWindow.class
+com/opentrader/ui/ChartPane.class
+com/opentrader/ui/DraggableWindow.class
