@@ -1,0 +1,60 @@
+/* Main Application Styling */
+.root {
+    -fx-base: #1e1e1e;
+    -fx-background-color: #1e1e1e;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+/* Helper Text in Center */
+.helper-text {
+    -fx-text-fill: #888888;
+    -fx-font-size: 18px;
+}
+
+/* Menu Bar */
+.menu-bar {
+    -fx-background-color: #2d2d2d;
+}
+
+.menu-button:hover,
+.menu-button:focused,
+.menu-button:showing {
+    -fx-background-color: #3d3d3d;
+}
+
+/* Tool Bar */
+.tool-bar {
+    -fx-background-color: #252526;
+    -fx-border-color: #333333;
+    -fx-border-width: 0 0 1 0;
+}
+
+.button {
+    -fx-background-color: #007acc;
+    -fx-text-fill: white;
+    -fx-background-radius: 3;
+}
+
+.button:hover {
+    -fx-background-color: #0098ff;
+}
+
+/* Labels */
+.label {
+    -fx-text-fill: #cccccc;
+}
+
+/* Tables and Lists (if added) */
+.table-view {
+    -fx-base: #1e1e1e;
+    -fx-control-inner-background: #1e1e1e;
+    -fx-background-color: #1e1e1e;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #2d2d2d;
+}
+
+.table-cell {
+    -fx-text-fill: #cccccc;
+}
